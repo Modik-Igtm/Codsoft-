@@ -1,121 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modika Sachan | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modika Sachan | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
 </head>
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Modika Sachan</h1>
-            <p>Aspiring Full Stack Developer</p>
-        </div>
-    </header>
-    <nav>
-   <a href="#about">About</a>
-   <a href="#skills">Skills</a>
-   <a href="#projects">Projects</a>
-   <a href="#contact">Contact</a>
+<nav>
+    <div class="logo">MS</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
+<section class="hero">
 
-        <img src="images/profile.jpg" alt="Profile Photo">
+    <div class="hero-content">
+
+        <h1>Modika Sachan</h1>
+
+        <h2>
+            Aspiring AI Engineer &
+            Full Stack Developer
+        </h2>
+        <h2>
+  <span id="typing"></span>
+</h2>
 
         <p>
-            I am a passionate Computer Science student interested in
-            Full Stack Development, Data Structures & Algorithms,
+            Building intelligent software solutions through
+            Artificial Intelligence, Full Stack Development,
             and Problem Solving.
         </p>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
+        <div class="buttons">
 
-        <div class="skills-container">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
-            <span>C++</span>
-            <span>Git & GitHub</span>
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="c:\Users\dell\Downloads\Modika_Sachan_Resume1.pdf" class="btn resume">
+                Download Resume
+            </a>
+
         </div>
-    </section>
-    <section id="education">
-    <h2>Education</h2>
 
-    <h3>B.Tech CSE</h3>
-    <p>Your College Name</p>
-</section>
-<section id="certifications">
-    <h2>Certifications</h2>
+    </div>
 
-    <ul>
-        <li>Data Analytics - Deloitte</li>
-        <li>HackerRank SQL Certificate</li>
-        <li>GUVI Certification</li>
-    </ul>
-</section>
-<section id="achievements">
-    <h2>Achievements</h2>
+    <div class="hero-image">
 
-    <ul>
-        <li>Solved 650+ DSA problems</li>
-        <li>5★ in C++</li>
-        <li>Active GitHub Contributor</li>
-    </ul>
+        <img
+        src="c:\Users\dell\Downloads\WhatsApp Image 2026-06-11 at 10.02.13 PM.jpeg"
+        alt="Profile Photo">
+
+    </div>
+
 </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2>
+<section class="stats">
+
+    <div class="card">
+        <h3>9.32</h3>
+        <p>CGPA</p>
+    </div>
+
+    <div class="card">
+        <h3>4+</h3>
+        <p>Projects</p>
+    </div>
+
+    <div class="card">
+       <h3 class="counter" data-target="650">80+</h3>
+        <p>DSA Problems</p>
+    </div>
+
+    <div class="card">
+        <h3>20+</h3>
+        <p>Certifications</p>
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I'm a Computer Science and AI student at
+        GL Bajaj Institute of Technology and Management.
+        Passionate about Full Stack Development,
+        Data Structures & Algorithms,
+        and Artificial Intelligence.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Python</div>
+        <div class="skill">C++</div>
+        <div class="skill">DSA</div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
 
         <div class="project-card">
-            <img src="images/project1.png" alt="Project">
-            <h3>Portfolio Website</h3>
-            <p>Personal portfolio website using HTML and CSS.</p>
+
+            <h3>Pathfinder</h3>
+
+            <p>
+                Career Guidance Platform helping
+                students explore colleges,
+                courses and career paths.
+            </p>
+
         </div>
 
         <div class="project-card">
-            <img src="images/project2.png" alt="Project">
-            <h3>Calculator App</h3>
-            <p>Calculator built using HTML, CSS and JavaScript.</p>
+
+            <h3>Campus Cart</h3>
+
+            <p>
+                Campus E-commerce platform
+                for buying and selling products.
+            </p>
+
         </div>
-    </section>
 
-    <!-- Resume -->
-    <section id="resume">
-        <h2>Resume</h2>
+        <div class="project-card">
 
-        <a href="resume.pdf" download class="btn">
-            Download Resume
+            <h3>Canteen Management System</h3>
+
+            <p>
+                Digital food ordering
+                and billing system.
+            </p>
+
+        </div>
+
+    </div>
+
+
+</section>
+<section class="hidden"></section>
+
+
+    <h2>Contact</h2>
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+
+        <a href="https://www.linkedin.com/in/modika-sachan-6103ba384"
+           target="_blank"
+           class="contact-card">
+            💼 LinkedIn
         </a>
-    </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
+        <a href="https://github.com/Modik-Igtm"
+           target="_blank"
+           class="contact-card">
+            🐙 GitHub
+        </a>
 
-        <p>Email: yourmail@gmail.com</p>
-        <p>Phone: +91 XXXXX XXXXX</p>
+        <a href="vijaysachan310gmail.com"
+           class="contact-card">
+            📧 Email
+        </a>
 
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-    </section>
+        <a href="tel:+917510004644"
+           class="contact-card">
+            📱 Call Me
+        </a>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Modika Sachan | All Rights Reserved</p>
-    </footer>
+    </div>
 
+</section>
+</section>
+<footer>
+
+<h3>
+Modika Sachan
+</h3>
+
+<p>
+Building intelligent software solutions
+for tomorrow.
+</p>
+
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<div id="particles-js"></div>
 </body>
 </html>
